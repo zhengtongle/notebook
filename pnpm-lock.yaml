@@ -4,6 +4,9 @@ devDependencies:
   '@vuepress/client':
     specifier: 2.0.0-beta.62
     version: 2.0.0-beta.62
+  '@vuepress/plugin-back-to-top':
+    specifier: 2.0.0-beta.62
+    version: 2.0.0-beta.62
   vue:
     specifier: ^3.3.2
     version: 3.3.2

@@ -1,12 +1,12 @@
 import { defineUserConfig ,defaultTheme} from 'vuepress'
-
 export default defineUserConfig({
   lang: 'zh-CN',
   title: '御坂网络',
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
 //   base:'notebook',
   description: 'Notebook',
   theme: defaultTheme({
-    logo: 'https://vuejs.org/images/logo.png',
+    logo: '/logo.png',
     navbar:[
         {
             text: '主页',

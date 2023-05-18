@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 御坂网络
-heroImage: https://vuejs.org/images/logo.png
+heroImage: /logo.png
 heroHeight: 80
 tagline: Notebook
 
