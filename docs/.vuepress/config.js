@@ -3,7 +3,7 @@ import { defineUserConfig ,defaultTheme} from 'vuepress'
 export default defineUserConfig({
   lang: 'zh-CN',
   title: '御坂网络',
-  base:'notebook',
+//   base:'notebook',
   description: 'Notebook',
   theme: defaultTheme({
     logo: 'https://vuejs.org/images/logo.png',
