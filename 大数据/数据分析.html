@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.62">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/logo.png"><title>数据分析 | 御坂网络</title><meta name="description" content="Notebook">
+    <link rel="preload" href="/assets/style-8a38cc2d.css" as="style"><link rel="stylesheet" href="/assets/style-8a38cc2d.css">
+    <link rel="modulepreload" href="/assets/app-94e3a00e.js"><link rel="modulepreload" href="/assets/数据分析.html-6982e143.js"><link rel="modulepreload" href="/assets/数据分析.html-b136ccd7.js"><link rel="prefetch" href="/assets/index.html-9437eba7.js" as="script"><link rel="prefetch" href="/assets/硅谷甄选.html-d30a6a00.js" as="script"><link rel="prefetch" href="/assets/Hive on Hadoop.html-d067d499.js" as="script"><link rel="prefetch" href="/assets/大数据（LoongArch64）.html-f020611e.js" as="script"><link rel="prefetch" href="/assets/404.html-f9875e7b.js" as="script"><link rel="prefetch" href="/assets/index.html-986cebe1.js" as="script"><link rel="prefetch" href="/assets/硅谷甄选.html-191ab77c.js" as="script"><link rel="prefetch" href="/assets/Hive on Hadoop.html-4a4c0dde.js" as="script"><link rel="prefetch" href="/assets/大数据（LoongArch64）.html-a489494d.js" as="script"><link rel="prefetch" href="/assets/404.html-52fd8279.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="toggle sidebar" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a href="/" class=""><img class="logo" src="/logo.png" alt="御坂网络"><span class="site-name can-hide">御坂网络</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide"><!--[--><div class="navbar-item"><a href="/" class="" aria-label="主页"><!--[--><!--]--> 主页 <!--[--><!--]--></a></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="大数据"><span class="title">大数据</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="大数据"><span class="title">大数据</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/大数据/Hive on Hadoop.html" class="" aria-label="Hive on Hadoop"><!--[--><!--]--> Hive on Hadoop <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/大数据/大数据（LoongArch64）.html" class="" aria-label="大数据（LoongArch64）"><!--[--><!--]--> 大数据（LoongArch64） <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/大数据/数据分析.html" class="" aria-label="数据分析"><!--[--><!--]--> 数据分析 <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="前端"><span class="title">前端</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="前端"><span class="title">前端</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/前端/硅谷甄选.html" class="" aria-label="硅谷甄选"><!--[--><!--]--> 硅谷甄选 <!--[--><!--]--></a></li><!--]--></ul></div></div><!--]--></nav><!--[--><!--]--><button class="toggle-color-mode-button" title="toggle color mode"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items"><!--[--><div class="navbar-item"><a href="/" class="" aria-label="主页"><!--[--><!--]--> 主页 <!--[--><!--]--></a></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="大数据"><span class="title">大数据</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="大数据"><span class="title">大数据</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/大数据/Hive on Hadoop.html" class="" aria-label="Hive on Hadoop"><!--[--><!--]--> Hive on Hadoop <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/大数据/大数据（LoongArch64）.html" class="" aria-label="大数据（LoongArch64）"><!--[--><!--]--> 大数据（LoongArch64） <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a href="/大数据/数据分析.html" class="" aria-label="数据分析"><!--[--><!--]--> 数据分析 <!--[--><!--]--></a></li><!--]--></ul></div></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="前端"><span class="title">前端</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="前端"><span class="title">前端</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a href="/前端/硅谷甄选.html" class="" aria-label="硅谷甄选"><!--[--><!--]--> 硅谷甄选 <!--[--><!--]--></a></li><!--]--></ul></div></div><!--]--></nav><!--[--><!--]--><ul class="sidebar-items"><!--[--><li><p tabindex="0" class="sidebar-item sidebar-heading">数据分析 <!----></p><ul style="" class="sidebar-item-children"><!--[--><li><a aria-current="page" href="/%E5%A4%A7%E6%95%B0%E6%8D%AE/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.html#加载数据" class="router-link-active router-link-exact-active sidebar-item" aria-label="加载数据"><!--[--><!--]--> 加载数据 <!--[--><!--]--></a><!----></li><li><a aria-current="page" href="/%E5%A4%A7%E6%95%B0%E6%8D%AE/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90.html#数据清洗" class="router-link-active router-link-exact-active sidebar-item" aria-label="数据清洗"><!--[--><!--]--> 数据清洗 <!--[--><!--]--></a><!----></li><!--]--></ul></li><!--]--></ul><!--[--><!--]--></aside><!--]--><!--[--><main class="page"><!--[--><!--]--><div class="theme-default-content"><!--[--><!--]--><div><h1 id="数据分析" tabindex="-1"><a class="header-anchor" href="#数据分析" aria-hidden="true">#</a> 数据分析</h1><h2 id="加载数据" tabindex="-1"><a class="header-anchor" href="#加载数据" aria-hidden="true">#</a> 加载数据</h2><p>创建数据库</p><div class="language-sql line-numbers-mode" data-ext="sql"><pre class="language-sql"><code><span class="token keyword">create</span> <span class="token keyword">database</span> <span class="token identifier"><span class="token punctuation">`</span>e<span class="token punctuation">`</span></span><span class="token punctuation">;</span>
+<span class="token keyword">use</span> <span class="token identifier"><span class="token punctuation">`</span>e<span class="token punctuation">`</span></span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>创建表</p><div class="language-sql line-numbers-mode" data-ext="sql"><pre class="language-sql"><code><span class="token comment">-- 创建表(行为)</span>
+<span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> user_act<span class="token punctuation">;</span>
+<span class="token keyword">create</span> <span class="token keyword">table</span> user_act
+<span class="token punctuation">(</span>
+    <span class="token identifier"><span class="token punctuation">`</span>act_date<span class="token punctuation">`</span></span> string <span class="token keyword">comment</span> <span class="token string">&#39;行为发生的日期（年/月/日）&#39;</span><span class="token punctuation">,</span>
+    <span class="token identifier"><span class="token punctuation">`</span>act_time<span class="token punctuation">`</span></span> string <span class="token keyword">comment</span> <span class="token string">&#39;行为发生的时间（时:分:秒）&#39;</span><span class="token punctuation">,</span>
+    <span class="token identifier"><span class="token punctuation">`</span>user<span class="token punctuation">`</span></span>     string <span class="token keyword">comment</span> <span class="token string">&#39;序列化的用户唯一标识（数据已脱敏）&#39;</span><span class="token punctuation">,</span>
+    <span class="token identifier"><span class="token punctuation">`</span>act_type<span class="token punctuation">`</span></span> string <span class="token keyword">comment</span> <span class="token string">&#39;行为类型：
+1.浏览；2.下单；3.关注；4.评论；
+5.加入购物车；6.咨询客服；7.投诉；&#39;</span><span class="token punctuation">,</span>
+    <span class="token identifier"><span class="token punctuation">`</span>sku<span class="token punctuation">`</span></span>      <span class="token keyword">int</span> <span class="token keyword">comment</span> <span class="token string">&#39;序列化的商品唯一标识（数据已脱敏）&#39;</span>
+<span class="token punctuation">)</span>
+    <span class="token keyword">row</span> format delimited
+        <span class="token keyword">fields</span> <span class="token keyword">terminated</span> <span class="token keyword">by</span> <span class="token string">&#39;,&#39;</span>
+        <span class="token keyword">lines</span> <span class="token keyword">terminated</span> <span class="token keyword">by</span> <span class="token string">&#39;\n&#39;</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- 创建表(商品)</span>
+<span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> sku<span class="token punctuation">;</span>
+<span class="token keyword">create</span> <span class="token keyword">table</span> sku
+<span class="token punctuation">(</span>
+    id    <span class="token keyword">int</span> <span class="token keyword">comment</span> <span class="token string">&quot;序列化的商品唯一标识（数据已脱敏）&quot;</span><span class="token punctuation">,</span>
+    price <span class="token keyword">float</span> <span class="token keyword">comment</span> <span class="token string">&quot;商品价格，单位为元。&quot;</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token comment">-- 创建表(用户)</span>
+<span class="token keyword">drop</span> <span class="token keyword">table</span> <span class="token keyword">if</span> <span class="token keyword">exists</span> <span class="token identifier"><span class="token punctuation">`</span>user<span class="token punctuation">`</span></span><span class="token punctuation">;</span>
+<span class="token keyword">create</span> <span class="token keyword">table</span> <span class="token identifier"><span class="token punctuation">`</span>user<span class="token punctuation">`</span></span>
+<span class="token punctuation">(</span>
+    id <span class="token keyword">int</span> <span class="token keyword">comment</span> <span class="token string">&#39;序列化的用户唯一标识（数据已脱敏）&#39;</span><span class="token punctuation">,</span>
+    address string <span class="token keyword">comment</span> <span class="token string">&#39;用户所在城市，精确到所在的市、县&#39;</span><span class="token punctuation">,</span>
+    birthday string <span class="token keyword">comment</span> <span class="token string">&#39;用户生日（年/月/日）&#39;</span><span class="token punctuation">,</span>
+    gender string <span class="token keyword">comment</span> <span class="token string">&#39;用户性别：女性为female；男性为male&#39;</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>加载数据</p><div class="language-sql line-numbers-mode" data-ext="sql"><pre class="language-sql"><code><span class="token comment">-- 加载数据(行为表)</span>
+<span class="token keyword">LOAD</span> <span class="token keyword">DATA</span> <span class="token keyword">LOCAL</span> INPATH <span class="token string">&#39;/home/hadoop/data/user_act.csv&#39;</span>
+    OVERWRITE <span class="token keyword">INTO</span> <span class="token keyword">TABLE</span> user_act<span class="token punctuation">;</span>
+
+<span class="token comment">-- 加载数据(商品表)</span>
+<span class="token keyword">load</span> <span class="token keyword">data</span> <span class="token keyword">local</span> INPATH <span class="token string">&#39;/home/hadoop/data/sku.csv&#39;</span>
+    overwrite <span class="token keyword">into</span> <span class="token keyword">table</span> sku<span class="token punctuation">;</span>
+
+<span class="token comment">-- 加载数据(用户表)</span>
+<span class="token keyword">load</span> <span class="token keyword">data</span> <span class="token keyword">local</span> INPATH <span class="token string">&#39;/home/hadoop/data/user.csv&#39;</span>
+    overwrite <span class="token keyword">into</span> <span class="token keyword">table</span> <span class="token identifier"><span class="token punctuation">`</span>user<span class="token punctuation">`</span></span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>统计基础数量</p><div class="language-sql line-numbers-mode" data-ext="sql"><pre class="language-sql"><code><span class="token comment">-- 行为数量 37207645</span>
+<span class="token keyword">select</span> <span class="token function">count</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span>
+<span class="token keyword">from</span> user_act<span class="token punctuation">;</span>
+
+<span class="token comment">-- 商品数量 378458</span>
+<span class="token keyword">select</span> <span class="token function">count</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span>
+<span class="token keyword">from</span> sku<span class="token punctuation">;</span>
+
+<span class="token comment">-- 用户数量 1608709</span>
+<span class="token keyword">select</span> <span class="token function">count</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span>
+<span class="token keyword">from</span> <span class="token identifier"><span class="token punctuation">`</span>user<span class="token punctuation">`</span></span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="数据清洗" tabindex="-1"><a class="header-anchor" href="#数据清洗" aria-hidden="true">#</a> 数据清洗</h2><p>去除完全重复的数据</p><div class="language-sql line-numbers-mode" data-ext="sql"><pre class="language-sql"><code><span class="token keyword">insert</span> overwrite <span class="token keyword">table</span> user_act
+<span class="token keyword">select</span> act_date<span class="token punctuation">,</span>
+       act_time<span class="token punctuation">,</span>
+       <span class="token identifier"><span class="token punctuation">`</span>user<span class="token punctuation">`</span></span><span class="token punctuation">,</span>
+       act_type<span class="token punctuation">,</span>
+       sku
+<span class="token keyword">from</span> user_act
+<span class="token keyword">group</span> <span class="token keyword">by</span> act_date<span class="token punctuation">,</span>
+         act_time<span class="token punctuation">,</span>
+         <span class="token identifier"><span class="token punctuation">`</span>user<span class="token punctuation">`</span></span><span class="token punctuation">,</span>
+         act_type<span class="token punctuation">,</span>
+         sku<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>去除日期异常的数据</p><div class="language-sql line-numbers-mode" data-ext="sql"><pre class="language-sql"><code><span class="token keyword">insert</span> overwrite <span class="token keyword">table</span> user_act
+<span class="token keyword">select</span> act_date<span class="token punctuation">,</span>
+       act_time<span class="token punctuation">,</span>
+       <span class="token identifier"><span class="token punctuation">`</span>user<span class="token punctuation">`</span></span><span class="token punctuation">,</span>
+       act_type<span class="token punctuation">,</span>
+       sku
+<span class="token keyword">from</span> user_act
+<span class="token keyword">where</span> act_date <span class="token operator">between</span> <span class="token string">&#39;2018-01-01&#39;</span> <span class="token operator">and</span> <span class="token string">&#39;2018-12-30&#39;</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>去除时间异常的数据</p><div class="language-sql line-numbers-mode" data-ext="sql"><pre class="language-sql"><code><span class="token keyword">insert</span> overwrite <span class="token keyword">table</span> user_act
+<span class="token keyword">select</span> act_date<span class="token punctuation">,</span>
+       act_time<span class="token punctuation">,</span>
+       <span class="token identifier"><span class="token punctuation">`</span>user<span class="token punctuation">`</span></span><span class="token punctuation">,</span>
+       act_type<span class="token punctuation">,</span>
+       sku
+<span class="token keyword">from</span> user_act
+<span class="token keyword">where</span> act_time <span class="token operator">between</span> <span class="token string">&#39;00:00:00&#39;</span> <span class="token operator">and</span> <span class="token string">&#39;23:59:59&#39;</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!--[--><!--]--></div><footer class="page-meta"><!----><div class="meta-item last-updated"><span class="meta-item-label">Last Updated: </span><!----></div><div class="meta-item contributors"><span class="meta-item-label">Contributors: </span><span class="meta-item-info"><!--[--><!--[--><span class="contributor" title="email: czxl61@163.com">Kazoto</span><!----><!--]--><!--]--></span></div></footer><!----><!--[--><!--]--></main><!--]--></div><!----><!--]--></div>
+    <script type="module" src="/assets/app-94e3a00e.js" defer></script>
+  </body>
+</html>
